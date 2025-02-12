@@ -107,15 +107,14 @@
 @media (max-width: 320px) or (orientation:portrait) {
 
     #container h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     #cep {
-        width: 150px;
+        width: 200px;
         height: 20px;
         font-size: 18px;
         padding: 20px 10px;
-        background-color: red;
     }
 
     #btn-apagar {
@@ -127,7 +126,7 @@
     }
 
     #btn_cep {
-        width: 150px;
+        width: 200px;
         height: 20px;
         font-size: 13px;
     }
