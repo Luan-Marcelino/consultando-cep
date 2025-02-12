@@ -104,14 +104,14 @@
 
 /* Área para Media Query */
 
-@media (max-width: 320px) {
+@media (max-width: 320px) or (orientation:portrait) {
 
     #container h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #cep {
-        width: 200px;
+        width: 150px;
         height: 20px;
         font-size: 18px;
         padding: 20px 10px;
@@ -126,7 +126,7 @@
     }
 
     #btn_cep {
-        width: 200px;
+        width: 150px;
         height: 20px;
         font-size: 13px;
     }
