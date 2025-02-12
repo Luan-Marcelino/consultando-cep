@@ -104,7 +104,7 @@
 
 /* Área para Media Query */
 
-@media (max-width: 320px) {
+@media (max-width: 320px) or (orientation:portrait) {
 
     #container h1 {
         font-size: 30px;
