@@ -115,6 +115,7 @@
         height: 20px;
         font-size: 18px;
         padding: 20px 10px;
+        background-color: red;
     }
 
     #btn-apagar {
