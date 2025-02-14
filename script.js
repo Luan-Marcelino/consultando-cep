@@ -37,8 +37,11 @@ function imprimindoRespostaCep(dados) { //Função para imprimir as informaçõe
 //Listeners de click para botões
 btn_cep.addEventListener('click', () =>{
     let cepDigitado = cep.value;
-    let cepLimpo = cepDigitado.replace("-",""); //tirando o traço dos númeross
-    pesquisarCep(cepLimpo);
+    let cepLimpo = cepDigitado.replace("-",""); //tirando o traço dos números
+    console.log(cepLimpo);
+    
+    cepLimpo.trim();
+    pesquisarCep(cepLimpo.trim());
 })
 
 btn_apagar.addEventListener('click', ()=>{
